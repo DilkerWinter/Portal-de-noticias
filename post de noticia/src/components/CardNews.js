@@ -6,7 +6,7 @@ class CardNews extends HTMLElement {
     shadow.appendChild(this.build());
     shadow.appendChild(this.styles());
   }
-
+  // criando as tags
   build() {
     const componentRoot = document.createElement("div");
     componentRoot.setAttribute("class", "card");
@@ -42,7 +42,7 @@ class CardNews extends HTMLElement {
 
     return componentRoot;
   }
-
+  //css
   styles() {
     const style = document.createElement("style");
     style.textContent = `.card {
